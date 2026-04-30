@@ -1,0 +1,7 @@
+❌ Error setting up database:
+Code: ER_DUP_ENTRY
+Message: Duplicate entry 'admin@viralstan.com' for key 'email'
+Stack: Error: Duplicate entry 'admin@viralstan.com' for key 'email'
+    at PromiseConnection.query (C:\Users\ADMIN\Desktop\Viralstan-system(CRM)\server\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at setupDB (C:\Users\ADMIN\Desktop\Viralstan-system(CRM)\server\scripts\setup-db.js:30:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
